@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <style>
+    body{
+      background:black;
+      color:white;
+    }
+    
+  </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title></title>
+</head>
+
+<body>
+  <pre id="pre">
+    function test(){
+    /* this is comment*/
+        var string = "hello";
+        var integer = 100;
+        console.log(string);
+        console.log(integer);
+    }
+  </pre>
+  <script src="SyntaxExpert.js"></script>
+<script>
+// here Libs Function
+   var get_elem = document.getElementById("pre");
+   
+   syntax(get_elem,"js",obj={
+     jsColor:"greenyellow",
+     jsKeywords:"red",
+     CommentColor:"white",
+     jsString:"yellow",
+     jsNumColor:"#5600FF",
+     jsPropertyColor:"white",
+     
+   });
+</script>
+</body>
+
+</html>
